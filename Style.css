@@ -1,0 +1,110 @@
+*
+{
+	 margin:0;
+	 padding:0;
+	 box-sizing:border-box;
+}
+.home
+{
+	 width: 100%;
+	 height: 100vh;
+	 position: absolute;
+	
+}
+
+.header
+{
+	 width:100%;
+	 height:70px;
+}
+.navbar
+{
+	 display:flex;
+	 align-items:center;
+	 padding:20px;
+}
+.logo a
+{
+	 color:purple;
+	 font-size:40px;
+	 text-align:center;
+	 font-family:arial;
+	 font-weight:bold;
+	 font-style:oblique;
+}
+nav 
+{
+	flex:10;
+	text-align: right;
+}
+nav ul
+{ 
+   float:right;
+   list-style-type:none;
+   margin-top:25px;
+   
+}
+ nav ul li
+{
+	display:inline-block;
+}
+
+ nav ul li a 
+{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-family:monospace;
+	padding:5px 20px;
+	border:1px solid #fff;
+	transition:o.6s ease;
+}
+nav ul li a:hover
+{
+	color:deeppink;
+	background-color:white;
+}
+
+.row
+{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.col
+{
+	 flex-basis:50%;
+	 min-width:600px;
+	 font-size:80px;
+	 text-align:center;
+	 font-family:sans-s;
+	 font-weight:bold;
+	 font-style:oblique;
+}
+.col h1
+{
+	margin-left:200px;
+	font-size:70px;
+	transition:2s;
+}
+.col p
+{
+	margin-left:200px;
+	font-size:30px;
+	margin-top:20px;
+	transition:3s;
+}
+body
+{
+	background-image:url(project3.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+.content
+{
+	background:white;
+	width:50%;
+	padding:40px;
+	margin:100px auto;
+}
